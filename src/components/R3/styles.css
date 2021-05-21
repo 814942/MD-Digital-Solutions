@@ -1,0 +1,53 @@
+.modal-center {
+  padding: 1em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-text {
+  width: 50%;
+  line-height: 1.5;
+}
+
+.modal-video {
+  width: 50%;
+  margin-left: 4%;
+}
+
+.modal-btn {
+  width: 5rem;
+  margin: 0 auto;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  position: relative;
+  padding: 1rem;
+  width: 100%;
+
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal.is-open {
+  display: flex;
+}
