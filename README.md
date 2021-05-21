@@ -18,4 +18,4 @@ Deberia consumir una API externa y renderizarla.
 
 Pude verse aqui [https://md-digital-solutions.netlify.app/]
 
-**Note: esto es solo una app web creada como desafio de MD Digital solutions!**
+**Note: esta app forma parte de una coleccion app´s de practica que cree durante mi paso por el bootcamp Soy Henry**

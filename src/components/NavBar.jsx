@@ -16,9 +16,13 @@ const NavBar = () => {
         <Link to="/R3">
           <button>R3</button>
         </Link>
-        <Link to="/R4">
+        <a
+          href="https://weather-app-3000.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button>R4</button>
-        </Link>
+        </a>
       </div>
     </div>
   );
