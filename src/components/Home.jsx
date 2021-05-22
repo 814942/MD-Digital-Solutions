@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,12 +17,17 @@ const Home = () => {
       <div className="home-btn-wr">
         <div className="home-btn-conteiner">
           <div className="home-btn">
-            <a href="http://www.md-digitalsolutions.com/" target="_blank">
+            <a
+              href="http://www.md-digitalsolutions.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="btn1 btn">MD Digital Solutions</button>
             </a>
             <a
               href="https://www.linkedin.com/in/pablo-garay-dev/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="btn2 btn">Sobre Mi</button>
             </a>
